@@ -25,6 +25,7 @@ async function getNFTData(tokenId) {
     const listedToken = await contract.getListedTokenForId(tokenId);
     let meta = await axios.get(tokenURI);
     meta = meta.data;
+    console.log(listedToken);
 
     let item = {
         price: meta.price,
@@ -35,8 +36,10 @@ async function getNFTData(tokenId) {
         name: meta.name,
         description: meta.description,
     }
+    console.log(item);
     updateData(item);
     updateDataFetched(true);
+    console.log("address", addr)
     updateCurrAddress(addr);
 }
 
@@ -69,7 +72,7 @@ async function buyNFT(tokenId) {
         getNFTData(tokenId);
 
     return(
-        <div style={{"minHeight":"100vh"}}>
+        <div style={{"min-height":"100vh"}}>
             <Navbar></Navbar>
             <div className="flex ml-20 mt-20">
                 <img src={data.image} alt="" className="w-2/5" />

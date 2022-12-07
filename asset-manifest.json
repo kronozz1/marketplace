@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/marketplace/static/css/main.465d102e.css",
-    "main.js": "/marketplace/static/js/main.fb8d7055.js",
+    "main.js": "/marketplace/static/js/main.df6cffcd.js",
     "static/js/787.be41429e.chunk.js": "/marketplace/static/js/787.be41429e.chunk.js",
     "static/media/tile.jpeg": "/marketplace/static/media/tile.d490ae250fe4f4d142b0.jpeg",
     "static/media/bg.png": "/marketplace/static/media/bg.5e8ea6f951ce29929699.png",
     "static/media/nft.png": "/marketplace/static/media/nft.d1df7309a10cfe2212ca.png",
     "index.html": "/marketplace/index.html",
     "main.465d102e.css.map": "/marketplace/static/css/main.465d102e.css.map",
-    "main.fb8d7055.js.map": "/marketplace/static/js/main.fb8d7055.js.map",
+    "main.df6cffcd.js.map": "/marketplace/static/js/main.df6cffcd.js.map",
     "787.be41429e.chunk.js.map": "/marketplace/static/js/787.be41429e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.465d102e.css",
-    "static/js/main.fb8d7055.js"
+    "static/js/main.df6cffcd.js"
   ]
 }

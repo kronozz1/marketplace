@@ -22,6 +22,7 @@ root.render(
         <Route path="/sellNFT" element={<SellNFT />}/> 
         <Route path="/nftPage/:tokenId" element={<NFTPage />}/>        
         <Route path="/profile" element={<Profile />}/> 
+          <Route path="*" element={<Marketplace />}/> 
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -14,12 +14,15 @@ import {
 function App() {
   return (
     <div className="container">
+    <BrowserRouter>
         <Routes>
           <Route path="/" element={<Marketplace />}/>
           <Route path="/nftPage" element={<NFTPage />}/>        
           <Route path="/profile" element={<Profile />}/>
           <Route path="/sellNFT" element={<SellNFT />}/>             
+          <Route path="*" element={<Marketplace />}/>
         </Routes>
+    </BrowserRouter>
     </div>
   );
 }
